@@ -12,7 +12,7 @@ import services.Ejercicios;
 
 public class Array {
     @GetMapping("/punto1")
-    public ModeloPunto1 ModeloPunto1(){
+    public Ejercicios ModeloPunto1(){
         Ejercicios ejercicios = new Ejercicios();
         int[] arrayOrdenado=ejercicios.arrayOrdenado;
         double suma =ejercicios.sumaNumeros();

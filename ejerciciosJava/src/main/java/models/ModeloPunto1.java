@@ -1,10 +1,10 @@
 package models;
 
-public class ModeloPunto1 {
+public class Ejercicios {
     private int[] arrayOrdenado;
     private double sumaNumeros;
 
-public ModeloPunto1 (int[] arrayOrdenado, double sumaNumeros){
+public Ejercicios (int[] arrayOrdenado, double sumaNumeros){
     this.arrayOrdenado= arrayOrdenado;
     this.sumaNumeros= sumaNumeros;
 }
